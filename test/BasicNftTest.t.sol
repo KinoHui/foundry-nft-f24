@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.18;
+pragma solidity ^0.8.20;
 
 import {Test} from "forge-std/Test.sol";
 import {BasicNft} from "../src/BasicNft.sol";
@@ -11,7 +11,7 @@ contract BasicNFTTest is Test {
     BasicNft public basicNft;
     address public user = makeAddr("user");
     string public constant TOKENURI =
-        "ipfs://QmdD5ECABqWjseECSp2jiJ9V3eu7uYN2atr8qfZsahbsZb";
+        "ipfs://QmNxiREtasW3m7sp57WELL83zSVHFFEfEbbnDAd2DBf7Ub";
 
     function setUp() public {
         deployer = new DeployBasicNft();
